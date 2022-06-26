@@ -20,7 +20,6 @@ export const Home = () => {
 
   return (
     <div>
-      <Navbar />
       {products?.map((product) => {
         return <h1 key={product.id}> {product.name} </h1>;
       })}
