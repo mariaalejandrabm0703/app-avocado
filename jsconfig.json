@@ -1,11 +1,7 @@
 {
     "compilerOptions": {
-          // indicamos la base del proyecto
-          // segun a esto los paths aliases
-          // se ubicaran
       "baseUrl": ".",
       "paths": {
-              // creamos los atajos
         "@database": ["database/db.ts"],
         "@components/*": ["components/*"]
       }

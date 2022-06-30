@@ -19,10 +19,10 @@ export const Home = () => {
 
   return (
     <div>
+      <h1 className="text-3xl font-bold underline">Hola mundo platzi</h1>
       {products?.map((product) => {
         return <h1 key={product.id}> {product.name} </h1>;
       })}
-      <h1>Hola mundo platzi</h1>
     </div>
   );
 };
